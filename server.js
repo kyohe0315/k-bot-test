@@ -16,7 +16,7 @@ const sourceChannelId = '1261217940112539714';
 const destinationGuildId = '930348999196676167';
 const destinationChannelId = '932595932464291872';
 
-const token = process.env.DISCORD_TOKEN;
+const TOKEN = process.env.DISCORD_TOKEN;
 
 client.on('message', async message => {
     if (message.channel.id === sourceChannelId) {
